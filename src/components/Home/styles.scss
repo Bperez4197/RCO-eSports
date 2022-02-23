@@ -1,0 +1,49 @@
+#home {
+  height: 800px;
+  width: 100vw;
+  padding-top: 80px;
+
+  .bg-image {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../images/gaming.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-content {
+    height: 250px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-size: 68px;
+      color: #f6ba00;
+    }
+
+    span {
+      font-size: 18px;
+    }
+
+    .icons {
+      margin-top: 10px;
+      a {
+        color: #eee;
+        margin: 0 10px;
+
+        &:hover {
+          color: #f6ba00;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+#about {
+  height: 800px;
+  width: 100vw;
+  background-color: #030059;
+  color: #eee;
+  padding: 25px;
+
+  h2 {
+    color: #f6ba00;
+    font-size: 32px;
+    text-decoration: underline;
+    margin: 0 0 50px 150px;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 600px;
+      width: 700px;
+      margin-right: 15px;
+    }
+
+    p {
+      height: 600px;
+      width: 400px;
+      font-size: 24px;
+      margin-left: 15px;
+      padding-top: 150px;
+
+      span {
+        color: #f6ba00;
+      }
+    }
+  }
+}
