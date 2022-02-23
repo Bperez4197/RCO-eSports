@@ -22,6 +22,7 @@ export default function Header() {
           spy={true}
           smooth={true}
           duration={1000}
+          offset={-75}
         >
           <li>About</li>
         </Link>
@@ -31,6 +32,7 @@ export default function Header() {
           spy={true}
           smooth={true}
           duration={1000}
+          offset={-75}
         >
           <li>Roster</li>
         </Link>
@@ -40,6 +42,7 @@ export default function Header() {
           spy={true}
           smooth={true}
           duration={1000}
+          offset={-75}
         >
           <li>Content</li>
         </Link>
@@ -49,6 +52,7 @@ export default function Header() {
           spy={true}
           smooth={true}
           duration={1000}
+          offset={-75}
         >
           <li>Contact</li>
         </Link>
